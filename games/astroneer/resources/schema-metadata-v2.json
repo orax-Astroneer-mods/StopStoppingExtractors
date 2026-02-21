@@ -1,0 +1,63 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "properties": {
+        "author": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "download": {
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "url": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "enable_ue4ss": {
+            "type": "boolean"
+        },
+        "homepage": {
+            "format": "uri",
+            "type": "string"
+        },
+        "mod_id": {
+            "pattern": "^[a-zA-Z0-9_]+$",
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "schema_version": {
+            "enum": [
+                2
+            ],
+            "type": "integer"
+        },
+        "sync": {
+            "enum": [
+                "client",
+                "server",
+                "none"
+            ],
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "mod_id",
+        "name",
+        "author",
+        "version",
+        "schema_version"
+    ],
+    "title": "Astroneer Mod Metadata V2",
+    "type": "object"
+}
