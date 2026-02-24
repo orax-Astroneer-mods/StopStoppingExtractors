@@ -1,7 +1,7 @@
 {
     "$schema": "./resources/schema.json",
     "author": "orax",
-    "description": "",
+    "description": "Stop Stopping Extractors",
     "homepage": "https://www.nexusmods.com/profile/0R4X/mods?gameId=1955",
-    "name": ""
+    "name": "StopStoppingExtractors"
 }
