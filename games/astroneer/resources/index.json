@@ -1,0 +1,13 @@
+{
+  "mods": {
+    "StopStoppingExtractors": {
+      "latest_version": "0.1.0",
+      "versions": {
+        "0.1.0": {
+          "download_url": "https://github.com/orax-Astroneer-mods/StopStoppingExtractors/releases/download/v0.1.0/000-StopStoppingExtractors-0.1.0_P.pak",
+          "filename": "000-StopStoppingExtractors-0.1.0_P.pak"
+        }
+      }
+    }
+  }
+}
